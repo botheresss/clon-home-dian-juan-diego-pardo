@@ -1,3 +1,9 @@
+.contenedor_general {
+  margin: 0 auto;     
+  padding: 20px;      
+  max-width: 1200px;  
+}
+
 .toplogo {
     background-color : #3366cc;
     flex: 0 0 15%;
@@ -8,7 +14,6 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 10px;
 }
 .toptexto {
     background-color : #e5eefb;
@@ -26,7 +31,7 @@
     padding: 0px;
     width: 100%;
 }
-.toplog, .toptexto {
+.toplogo, .toptexto {
     display: flex;
     align-items: center;
     padding: 10px;
