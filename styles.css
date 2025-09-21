@@ -188,3 +188,73 @@
 .servicio ul li::marker {
     color : #069169;
 }
+.penultima_parte {
+    background-color : #ffff;
+    display : flex;
+    gap : 20px;
+    font-family : "Work Sans", sans-serif;
+
+}
+.penultima_parte h1 {
+    color : #069169
+}
+.penultima_parte li:hover {
+    color: grey
+}
+.subpenultima_parte {
+    display : flex;
+    font-family : "Work Sans", sans-serif;
+
+}
+.subpenultima_parte ul li::marker {
+    color : #069169;
+}
+.subpenultima_parte h1 {
+    color : #069169;
+    font-size : 18px;
+}
+.subpenultima_parte li:hover {
+    color: grey
+}
+.footer {
+    background-color : #3366cc;
+    display : flex;
+    font-family : "Work Sans", sans-serif;
+}
+.logofinal {
+    height : 250px;
+    width : 20%;
+}
+.info {
+    display : flex;
+    flex-direction : column;
+    padding : 20px;
+    color : white;
+    align-items : flex-start;
+    width : 40%;
+}
+.info h1 {
+    font-size : 18px;
+    font-weight : bold;
+}
+.contacto {
+    display : flex;
+    flex-direction : column;
+    padding : 20px;
+    color : white;
+    align-items : flex-start;
+    width : 40%;
+}
+.contacto h1 {
+    font-size : 18px;
+    font-weight : bold;
+}
+.contacto_opciones {
+    display : flex;
+    flex-direction : column;
+    padding : 20px;
+}
+.contacto_opciones li:hover {
+    text-decoration : underline;
+    font-size : 20px;
+}
